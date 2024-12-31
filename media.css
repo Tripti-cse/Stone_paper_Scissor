@@ -1,0 +1,72 @@
+ /* for Tablet */
+ @media (max-width:768px) {
+    h1{
+        font-size: 1.8rem;
+        line-height: 4rem;
+       
+    }
+    .choice{
+        height: 120px;
+        width: 120px;
+    }
+    img{
+        height: 100px;
+        width: 100px;
+    }
+    .choices{
+        gap: 2rem;
+    }
+    .score_card{
+        font-size: 1.3rem;
+        gap: 3rem;
+    }
+    #score_card,#comp_card{
+      font-size: 2.5rem;
+    }
+    #msg{
+        font-size: 1rem;
+        padding: 0.8rem;
+    }
+ }
+
+ /* Mob view  */
+
+ @media(max-width:480px){
+    h1{
+        height: 3rem;
+        font-size: 1.5rem;
+        margin: 0 auto;
+        
+    }
+    .choice{
+        height: 90px;
+        width: 90px;
+        margin-top: 5rem;
+    }
+    img{
+        height: 70px;
+        width: 70px;
+        border: 2px solid rgb(30, 34, 54);
+
+    }
+    .choices{
+        flex-direction: row;
+        gap: .5rem;
+    }
+    .score_card{
+        flex-direction: row;
+        gap: .2rem;
+        font-size: 1.2rem;
+    }
+    .comp_card{
+        font-size: 2rem;
+        margin-top: 6rem;
+    }
+    .msg_container{
+        margin-top: 4rem;
+    }
+    #msg{
+        font-size: 0.9rem;
+        padding: 0.5rem;
+    }
+ }
